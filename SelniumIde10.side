@@ -1,0 +1,63 @@
+{
+  "id": "1450a55a-533c-4668-9d4a-feed15c2e913",
+  "version": "2.0",
+  "name": "SelniumIde",
+  "url": "",
+  "tests": [{
+    "id": "8771a3af-b4a8-46c0-b2de-a6dd3a99e5fd",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8d5e9337-16d2-424b-b1dd-a740bb76f0c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21d5a692-dd3e-40ff-8cc5-7f36fb92820a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "989x666",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adf68ba5-5c13-4142-871b-9b65805d8851",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "seleniumhq documentation"
+    }, {
+      "id": "3695996a-a5f9-4bc0-b47e-25b378f07fb5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b49892fd-8726-4171-b0d8-75a6c8eb3d2a",
+      "comment": "",
+      "command": "click",
+      "target": "//*[contains(@class, 'LC20lb DKV0Md')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d051e236-f518-44fe-b9d9-55b3956715dc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.scrollBy(0,1500)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dede84ce-21c9-45e6-aee4-3fc7d8f222e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8771a3af-b4a8-46c0-b2de-a6dd3a99e5fd"]
+  }],
+  "urls": [],
+  "plugins": []
+}

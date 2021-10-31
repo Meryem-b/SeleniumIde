@@ -1,0 +1,70 @@
+{
+  "id": "6cfb2067-867b-452a-a44e-f43f45b7af1d",
+  "version": "2.0",
+  "name": "new",
+  "url": "",
+  "tests": [{
+    "id": "507fb5cd-b7cb-4123-b404-6bb6c2630cb5",
+    "name": "Untitled",
+    "commands": [{
+      "id": "122ad2ef-2547-4121-a048-b7ad9db114d9",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.rediff.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b45a8d2-95c0-4342-890b-bb200c2962e9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "link=Sign in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31cfe9ce-a6a4-45c5-8155-b041013e0b72",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=login1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cebcc7b-2bc6-452b-b264-d2e2da829bfd",
+      "comment": "",
+      "command": "type",
+      "target": "id=login1",
+      "targets": [],
+      "value": "seleniumtest123"
+    }, {
+      "id": "cce82ad3-487a-426b-8638-59af67708bcc",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ebfe457-b093-4a1f-9d67-bf4118535c31",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "Siemens.123"
+    }, {
+      "id": "b9d9b3a5-ef10-4c4a-a776-9764fc2e9f37",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=proceed",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "743126fe-3a4a-4187-976d-c6b0c0cb6f4b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["507fb5cd-b7cb-4123-b404-6bb6c2630cb5"]
+  }],
+  "urls": [],
+  "plugins": []
+}

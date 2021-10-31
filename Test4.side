@@ -1,0 +1,49 @@
+{
+  "id": "cc181da6-68dd-4b5c-bfb4-b22f4d92f665",
+  "version": "2.0",
+  "name": "Test4",
+  "url": "",
+  "tests": [{
+    "id": "fe618f90-5d2e-4431-8a0f-1a33d5f22c21",
+    "name": "Untitled",
+    "commands": [{
+      "id": "c9ab228b-0e53-4c14-9708-55ab07e37b8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/links",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4946b4b-77fa-4def-a48e-c6cf939e9aeb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=simpleLink",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69774356-5791-4899-8830-ac8856fe63fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/links",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd812cc8-8d60-48cc-9017-6690cf3adc03",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=unauthorized",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3e804dc9-c366-4269-8e29-dad6c358a5f2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fe618f90-5d2e-4431-8a0f-1a33d5f22c21"]
+  }],
+  "urls": [],
+  "plugins": []
+}

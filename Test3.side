@@ -1,0 +1,56 @@
+{
+  "id": "3e5296be-a913-42cf-be11-6d25e585ae64",
+  "version": "2.0",
+  "name": "TEST3",
+  "url": "",
+  "tests": [{
+    "id": "7453d8fc-78e8-4989-abb3-0edfda8551bb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7af6ced1-b080-4b67-8961-8d96a96ee5e1",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/buttons",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f180ce7-49ff-4f90-908b-dcfb02e7a2a2",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=doubleClickBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec89cd7f-1b2a-4f45-9738-406e6f9782ae",
+      "comment": "",
+      "command": "store",
+      "target": "id=doubleClickMessage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "826d2fae-de45-482f-9462-a3c950420494",
+      "comment": "",
+      "command": "clickAt",
+      "target": " xpath=//div/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e5a3d4c-999d-4a7f-bd1d-61679cd28b3b",
+      "comment": "",
+      "command": "store",
+      "target": "id=dynamicClickMessage",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7b1c82be-69eb-48cd-b896-f337d994b2e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7453d8fc-78e8-4989-abb3-0edfda8551bb"]
+  }],
+  "urls": [],
+  "plugins": []
+}

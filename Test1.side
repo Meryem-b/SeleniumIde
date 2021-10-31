@@ -1,0 +1,98 @@
+{
+  "id": "adbe6487-6e01-402e-8874-0540abc632f5",
+  "version": "2.0",
+  "name": "selenium",
+  "url": "",
+  "tests": [{
+    "id": "b29cdc06-2a8e-4fc6-a274-5b2a2bbe7df0",
+    "name": "Untitled",
+    "commands": [{
+      "id": "bad7a19b-dda8-4410-9849-603eeb3ede99",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/text-box",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30f22b91-83ef-43c3-83f0-cb574d777cd1",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=userName",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60ae77aa-56cd-4932-996a-ea64bb11194b",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [],
+      "value": "Meryem sema"
+    }, {
+      "id": "72acbdfb-97a3-4c88-9480-e650eaed29ba",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=userEmail",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "660cb3bc-b924-4e97-97e9-06fa0d85e3d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [],
+      "value": "msemaa1@hotmail.com"
+    }, {
+      "id": "15151578-2f27-4d96-b59e-2d523aa82338",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=currentAddress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c23f9eb4-be6c-400e-9c72-785567516a3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=currentAddress",
+      "targets": [],
+      "value": "İstanbul / Türkiye"
+    }, {
+      "id": "71b66e6d-5b81-42ab-bdeb-d786844099f6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=permanentAddress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eac85857-9afd-480f-a654-ce6c35a947af",
+      "comment": "",
+      "command": "type",
+      "target": "id=permanentAddress",
+      "targets": [],
+      "value": "Çamlıca tepesi"
+    }, {
+      "id": "596b1876-d711-46d8-aac2-05f40859855a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=submit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f31fd8e0-db3c-43af-be74-e35ccc02e3ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/checkbox",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f19d4c28-23af-42b3-8c15-93c0485f0e41",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b29cdc06-2a8e-4fc6-a274-5b2a2bbe7df0"]
+  }],
+  "urls": [],
+  "plugins": []
+}

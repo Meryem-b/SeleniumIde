@@ -1,0 +1,63 @@
+{
+  "id": "5fe2bcf2-b332-4c70-82fd-5f1c5bc4a692",
+  "version": "2.0",
+  "name": "pegasus",
+  "url": "",
+  "tests": [{
+    "id": "9499f9e9-9ad4-4d96-8b11-abb1ab7f35cb",
+    "name": "Untitled",
+    "commands": [{
+      "id": "406f6e1e-bda8-4b6c-86a9-3fc35260651c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flypgs.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dca395e-da12-4427-9874-61f42804d734",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "MyTitle"
+    }, {
+      "id": "823b4e44-42e2-4142-bac6-61b3a288ebb8",
+      "comment": "",
+      "command": "echo",
+      "target": "The page title is ${mytitle}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a565bb6-c3a9-412a-be59-0191e9862350",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06d75e3d-b24b-4793-b621-2d0dd96cd5d2",
+      "comment": "",
+      "command": "echo",
+      "target": "This is loop number ${!times}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d475e64a-99f5-4073-a718-d389e0b824b8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5bc14358-66b8-4fb8-8135-af070fe60b8d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9499f9e9-9ad4-4d96-8b11-abb1ab7f35cb"]
+  }],
+  "urls": [],
+  "plugins": []
+}

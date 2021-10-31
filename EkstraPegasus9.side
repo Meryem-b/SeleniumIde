@@ -1,0 +1,398 @@
+{
+  "id": "3402635f-a622-4a44-993e-e8ba65981333",
+  "version": "2.0",
+  "name": "Homework_Tests",
+  "url": "https://www.flypgs.com/",
+  "tests": [{
+    "id": "7a9d18c1-b8ba-463d-9b18-525d752e09de",
+    "name": "flypgs_ticket",
+    "commands": [{
+      "id": "513b2fe1-1e1a-4666-9dbc-542a3e63723f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flypgs.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a42e576-7e53-4755-a03d-c095952d3970",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=span.nxm2_select-nereden .select2-selection",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd6a90ed-1296-4260-b0c0-7e37a3e15320",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=input.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3515c46e-cc85-46e1-b1e5-15ed44cdb264",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.select2-search__field",
+      "targets": [
+        ["css=.select2-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "istanbul"
+    }, {
+      "id": "c58bf086-8982-4366-9fd2-b27b17773be8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=select2-n1r5-result-4l1z-IST_SAW",
+      "targets": [
+        ["id=select2-n1r5-result-4l1z-IST_SAW", "id"],
+        ["css=#select2-n1r5-result-4l1z-IST_SAW", "css:finder"],
+        ["xpath=//li[@id='select2-n1r5-result-4l1z-IST_SAW']", "xpath:attributes"],
+        ["xpath=//ul[@id='select2-n1r5-results']/li[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acde9e1e-7cab-456b-989a-d40565c9b4fb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=span.nxm2_select-nereye .select2-selection",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cd8db4f-2012-4500-b46e-b8c6cf362326",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=input.select2-search__field",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a06dab4-c0c9-44d1-b6b6-5f8c4bdb5f73",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.select2-search__field",
+      "targets": [],
+      "value": "izm"
+    }, {
+      "id": "607b7b84-bf29-459f-9f83-e04aa88a950a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//li[@class=\"select2-results__option select2-results__option--highlighted\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cce133da-9f13-46f8-863a-2aed16f825e8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.nxm-departDateContainer .arrow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e533b749-2d29-4394-a3c7-2f32d9c1bc94",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=8",
+      "targets": [
+        ["linkText=8", "linkText"],
+        ["css=tr:nth-child(2) .ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'8')]", "xpath:link"],
+        ["xpath=//div[@id='search-flight-datepicker-departure']/div/div/table/tbody/tr[2]/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[41]", "xpath:href"],
+        ["xpath=//tr[2]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29c5cfc7-99fb-4e6a-b8dc-11e60edb5825",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=14",
+      "targets": [
+        ["linkText=14", "linkText"],
+        ["css=.ui-datepicker-week-end > .ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'14')])[3]", "xpath:link"],
+        ["xpath=//div[@id='search-flight-datepicker-arrival']/div/div/table/tbody/tr[2]/td[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[102]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/table/tbody/tr[2]/td[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f66fe52-6d19-4eb0-ab96-447956abfd5b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.adultSoldierSelection",
+      "targets": [
+        ["css=.adultSoldierSelection", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='fligth-searh']/div[3]/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ucuz Uçuş Ara')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c7f791e-1e85-462e-93ae-e982466d849a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Okudum, Kabul Ediyorum",
+      "targets": [
+        ["linkText=Okudum, Kabul Ediyorum", "linkText"],
+        ["css=.binder-go", "css:finder"],
+        ["xpath=//a[contains(text(),'Okudum, Kabul Ediyorum')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[23]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Okudum, Kabul Ediyorum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd9177c2-4ade-4b55-9e20-893803bc277c",
+      "comment": "",
+      "command": "//assert",
+      "target": "css=div.flight-summary",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "53566e51-4dd3-448b-98d2-597610538118",
+    "name": "flypgs_pw-renew",
+    "commands": [{
+      "id": "26cdd0af-aa16-4697-aeb1-77e801922c86",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flypgs.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ee6648d-f765-4dde-8f08-fd106c3d045f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//li[@id='sctLoginProfile']/a/span",
+      "targets": [
+        ["css=.nxm2_bolbol-btn > span:nth-child(2)", "css:finder"],
+        ["xpath=//li[@id='sctLoginProfile']/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c632e1c-c11d-4a75-a4a8-6a4d5edb712a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Şifremi Unuttum",
+      "targets": [
+        ["linkText=Şifremi Unuttum", "linkText"],
+        ["css=.link--dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Şifremi Unuttum')]", "xpath:link"],
+        ["xpath=//li[@id='sctLoginProfile']/div/div[2]/form/div[4]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://web.flypgs.com/password-reset?language=TR')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Şifremi Unuttum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "361ce8bc-62a2-44ce-8b26-b8558b65a150",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=(//input[@name='resetLinkSelection'])[2]",
+      "targets": [
+        ["css=.MuiFormControlLabel-root:nth-child(2) .jss4", "css:finder"],
+        ["xpath=(//input[@name='resetLinkSelection'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]/div/div[2]/form/div/div[3]/div/label[2]/span/span/input", "xpath:idRelative"],
+        ["xpath=//label[2]/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b731364d-9850-4440-9a23-7f8ef6aee37b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=area-code",
+      "targets": [
+        ["name=area-code", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='area-code']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]/div/div[2]/form/div/div[3]/div[2]/div[2]/div/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2816389-1807-4c05-9c02-0b0f4753520a",
+      "comment": "",
+      "command": "type",
+      "target": "name=area-code",
+      "targets": [
+        ["name=area-code", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='area-code']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]/div/div[2]/form/div/div[3]/div[2]/div[2]/div/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "542"
+    }, {
+      "id": "a287a061-0879-4f8d-accb-39eba85a7d51",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.Mui-focused > .MuiInputBase-input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[3]/div/div[2]/form/div/div[3]/div[2]/div[2]/div/div[3]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "5938917"
+    }, {
+      "id": "31aefef2-ecfa-445b-8d35-e4f9e5d43aeb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=3",
+      "targets": [
+        ["index=3"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a42089f-6669-425e-984d-316bb68aa0b4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "20b30367-0593-49f6-b517-198a067e0165",
+    "name": "flypgs_login",
+    "commands": [{
+      "id": "84678790-2844-487a-b22c-ff8abed727cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flypgs.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c26c7ee-e5f2-46fe-919a-69be3d5e618f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//li[@id='sctLoginProfile']/a/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e8cd315-57e6-44f4-b8d5-bf4b8d690655",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-input-tel2",
+      "targets": [
+        ["id=header-input-tel2", "id"],
+        ["name=header-input-tel2", "name"],
+        ["css=#header-input-tel2", "css:finder"],
+        ["xpath=//input[@id='header-input-tel2']", "xpath:attributes"],
+        ["xpath=//li[@id='sctLoginProfile']/div/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "542"
+    }, {
+      "id": "80e29e06-ff5d-425b-9a81-e4e9e5ab1cca",
+      "comment": "",
+      "command": "type",
+      "target": "id=header-input-tel3",
+      "targets": [
+        ["id=header-input-tel3", "id"],
+        ["name=header-input-tel3", "name"],
+        ["css=#header-input-tel3", "css:finder"],
+        ["xpath=//input[@id='header-input-tel3']", "xpath:attributes"],
+        ["xpath=//li[@id='sctLoginProfile']/div/div[2]/form/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "5938917"
+    }, {
+      "id": "7bfb58ee-eda7-47fc-904a-d4f2f5445b57",
+      "comment": "",
+      "command": "click",
+      "target": "id=intTextBox",
+      "targets": [
+        ["id=intTextBox", "id"],
+        ["name=nxm2_password", "name"],
+        ["css=#intTextBox", "css:finder"],
+        ["xpath=//input[@id='intTextBox']", "xpath:attributes"],
+        ["xpath=//li[@id='sctLoginProfile']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec23584-70c1-4fd0-b74b-64471cae5725",
+      "comment": "(Insert the password here)",
+      "command": "type",
+      "target": "id=intTextBox",
+      "targets": [
+        ["id=intTextBox", "id"],
+        ["name=nxm2_password", "name"],
+        ["css=#intTextBox", "css:finder"],
+        ["xpath=//input[@id='intTextBox']", "xpath:attributes"],
+        ["xpath=//li[@id='sctLoginProfile']/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/input", "xpath:position"]
+      ],
+      "value": "******"
+    }, {
+      "id": "112efe8b-3409-429e-be35-8fd4f4ac7408",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "58a95c7a-a4fb-4728-a6ea-762d4a1bc00c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79c32454-51f5-4cd8-baeb-692b5c12e6c4",
+      "comment": "",
+      "command": "//clickAt",
+      "target": "//button[@id=\"sctLoginProfile\"]/div[1]/div[2]/form/div[5]/div/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0da37e38-3661-4286-96c6-325b5e6838d7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "177ea5df-77b7-457e-9705-cefd1292e7d9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'GİRİŞ YAPIN')]",
+      "targets": [
+        ["css=.nxm-login-submit > span", "css:finder"],
+        ["xpath=//li[@id='sctLoginProfile']/div/div[2]/form/div[5]/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'GİRİŞ YAPIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f57c662-b366-4e7e-9617-bf5ceaefc983",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7a9d18c1-b8ba-463d-9b18-525d752e09de"]
+  }],
+  "urls": ["https://www.flypgs.com/"],
+  "plugins": []
+}

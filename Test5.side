@@ -1,0 +1,56 @@
+{
+  "id": "6c16f039-786b-4149-8080-03a700d55cc4",
+  "version": "2.0",
+  "name": "Test5",
+  "url": "",
+  "tests": [{
+    "id": "484cba58-ec87-4b88-826d-412e99f4f113",
+    "name": "Untitled",
+    "commands": [{
+      "id": "b79e93c9-64c1-4c51-b131-6e4a78868002",
+      "comment": "",
+      "command": "open",
+      "target": "https://demoqa.com/dynamic-properties",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f08f8285-4739-4346-8a37-e51bd930dbe2",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=enableAfter",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37f3d771-b96b-4794-9c76-7cf6660e9990",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=enableAfter",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "bba6551a-37f7-4b32-b726-0b98f9b80281",
+      "comment": "",
+      "command": "click",
+      "target": "id=colorChange",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3621ce7-186b-4df7-872e-0805d985bdda",
+      "comment": "",
+      "command": "click",
+      "target": "id=visibleAfter",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e8b77d29-dac3-4ec0-9308-fdb422fc2e4c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["484cba58-ec87-4b88-826d-412e99f4f113"]
+  }],
+  "urls": [],
+  "plugins": []
+}
