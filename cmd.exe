@@ -1,0 +1,94 @@
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\z004du6d>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z004du6d>cd /Users/z004du6d/Desktop/SeleniumIde
+
+C:\Users\z004du6d\Desktop\SeleniumIde>git init
+Initialized empty Git repository in C:/Users/z004du6d/Desktop/SeleniumIde/.git/
+
+C:\Users\z004du6d\Desktop\SeleniumIde>git add .
+warning: LF will be replaced by CRLF in EkstraPegasus8.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in EkstraPegasus9.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in SelniumIde10.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test1.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test2.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test3.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test4.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test5.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test6.side.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in Test7.side.
+The file will have its original line endings in your working directory
+
+C:\Users\z004du6d\Desktop\SeleniumIde>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   EkstraPegasus8.side
+        new file:   EkstraPegasus9.side
+        new file:   SelniumIde10.side
+        new file:   Test1.side
+        new file:   Test2.side
+        new file:   Test3.side
+        new file:   Test4.side
+        new file:   Test5.side
+        new file:   Test6.side
+        new file:   Test7.side
+
+
+C:\Users\z004du6d\Desktop\SeleniumIde>git commit -m "First commit"
+[master (root-commit) 386d136] First commit
+ Committer: Bolat <meryem.bolat@siemens.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 1084 insertions(+)
+ create mode 100644 EkstraPegasus8.side
+ create mode 100644 EkstraPegasus9.side
+ create mode 100644 SelniumIde10.side
+ create mode 100644 Test1.side
+ create mode 100644 Test2.side
+ create mode 100644 Test3.side
+ create mode 100644 Test4.side
+ create mode 100644 Test5.side
+ create mode 100644 Test6.side
+ create mode 100644 Test7.side
+
+C:\Users\z004du6d\Desktop\SeleniumIde>git remote add origin https://github.com/meryem-s/SeleniumIde.git
+
+C:\Users\z004du6d\Desktop\SeleniumIde>git push -u origin master
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 7.71 KiB | 1.10 MiB/s, done.
+Total 12 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/meryem-s/SeleniumIde.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\z004du6d\Desktop\SeleniumIde>
