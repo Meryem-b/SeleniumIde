@@ -1,0 +1,70 @@
+{
+  "id": "4d716648-9db0-4203-b826-0cb919a5ac1f",
+  "version": "2.0",
+  "name": "pegasus4",
+  "url": "",
+  "tests": [{
+    "id": "19392b74-1671-439e-8a30-ad21193b3129",
+    "name": "Untitled",
+    "commands": [{
+      "id": "62a8754a-7f71-435e-992f-5117a0fc666e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flypgs.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8f65020-8185-4929-a0d9-ba8a8ac45ff3",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//label[contains(text(),'Tek Yön')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f7f6a39-4b7d-4ab7-a070-21d31b7c8c75",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.nxm2_select-nereden .select2-selection__arrow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ab8d717-5b18-424b-b6aa-0a44994d6528",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.select2-search__field",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daf320d3-443c-47b2-8c90-6dbeee19ae9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-20ze-result-ce60-AJI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cd37221-1d25-486e-8cd2-770f68ccecc0",
+      "comment": "",
+      "command": "clickAt",
+      "target": ".nxm2_select-nereye .select2-selection__arrow",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b177eae-97c9-4048-8530-69ec8c65c950",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=select2-wepu-result-uqhu-BER",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "249b6556-816c-4249-a480-dc25f56665db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["19392b74-1671-439e-8a30-ad21193b3129"]
+  }],
+  "urls": [],
+  "plugins": []
+}
